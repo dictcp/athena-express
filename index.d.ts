@@ -2,6 +2,7 @@ declare module 'athena-express' {
     import * as aws from 'aws-sdk';
     interface ConnectionConfigInterface {
         aws: typeof aws;
+        credentials: typeof aws.Credentials;
         s3: string;
         getStats: boolean;
         db: string,
