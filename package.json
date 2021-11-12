@@ -9,10 +9,6 @@
     "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "start": "npm test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ghdna/athena-express.git"
-  },
   "keywords": [
     "aws",
     "athena",
